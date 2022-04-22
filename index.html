@@ -5,11 +5,12 @@
 <h2>CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
-@@ -22,8 +21,14 @@ <h2>CatPhotoApp</h2>
+@@ -21,15 +21,17 @@ <h2>CatPhotoApp</h2>
     <li>other cats</li>
   </ol>
   <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-    <input type="text" required>
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
     <input type="text" placeholder="cat photo URL" required>
     <button type="submit">Submit</button>
     <label for= "indoor">
@@ -18,7 +19,13 @@
       <label for= "outdoor">
       <input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor
       </label>
+    <label for="caring"><input id="caring" type= "checkbox" name="personality"> Caring</label>
+
+    <label for="loving"><input id="loving" type= "checkbox" name="personality"> Loving</label>
+
+    <label for="adorable"><input id="adorable" type= "checkbox" name="personality"> Adorable</label>
   </form>
 </main>
 <footer id=footer>Copyright Cat Photo App</footer>
+</body>
 </html> 
